@@ -1,0 +1,52 @@
+{
+	"country1": {
+		"id": null,
+		"name": "Nigauto",
+		"code": "NAC",
+		"status": "INACTIVE",
+		"phoneCode": "+435",
+		"currencyId": "NAIRA",
+		"minimumOrderAmount": 5000.54,
+		"valueAddedTax": 3.56
+	},
+	"country2": {
+		"id": null,
+		"name": "AutoCountry",
+		"code": "NAT",
+		"status": "INACTIVE",
+		"phoneCode": "+435",
+		"currencyId": "NAIRA",
+		"minimumOrderAmount": 1000,
+		"valueAddedTax": 3.5
+	},
+	"automationCountry": {
+		"name": "AutoCountry",
+		"code": "NGA",
+		"phoneCode": "234",
+		"currencyId": "NAIRA",
+		"minimumOrderAmount": 5000.54,
+		"valueAddedTax": 50.56
+	},
+	"automationState": {
+		"name": "Lagauto",
+		"code": "LAT",
+		"countryId": "bcb70cd4-154e-4712-a487-7df2dd71b4ec",
+		"minimumOrderAmount": 2000.54
+	},
+	"automationCity": {
+		"name": "Ikejauto",
+		"code": "IKA",
+		"countryId": "bcb70cd4-154e-4712-a487-7df2dd71b4ec"
+	},
+	"automationLga": {
+		"name": "Agudauto",
+		"code": "AGA",
+		"stateId": "bcb70cd4-154e-4712-a487-7df2dd71b4ec"
+	},
+
+	"automationWard": {
+		"name": "Oju-auto",
+		"code": "OJA",
+		"lgaId": "bcb70cd4-154e-4712-a487-7df2dd71b4ec"
+	}
+}

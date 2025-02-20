@@ -1,0 +1,138 @@
+{
+	"uom": {
+		"id": "null",
+		"name": "Gallon",
+		"code": "GAL",
+		"status": "INACTIVE",
+		"mode": "External",
+		"description": "Unit of liquid or dry capacity equal to eight pints or 4.55 litres.",
+		"createdAt": "null",
+		"createdBy": "null"
+	},
+	"uom2": {
+		"id": "null",
+		"name": "Pounds",
+		"code": "Lbs",
+		"status": "INACTIVE",
+		"mode": "Internal",
+		"description": "Test automation for Unit of mass of liquid or dry capacity",
+		"createdAt": "null",
+		"createdBy": "null"
+	},
+	"category": {
+		"id": "9d90de5d-25fe-49e5-9ae9-d40e144f90ba",
+		"createdAt": "2024-07-17T13:45:55.835Z",
+		"updatedAt": "2024-11-25T15:12:50.118Z",
+		"name": "Automation Category",
+		"code": "AUC",
+		"description": "Test automation category",
+		"categoryId": null,
+		"imageUrl": "https://vend-erp-dev.s3.amazonaws.com/public/8b7f4d04-ca3d-470c-a01f-a0e3b52f0c9b-electronics.png",
+		"isVatable": "Yes",
+		"status": "active",
+		"subCategories": [
+			{
+				"id": 1,
+				"name": "Automation Subcategory",
+				"discount_value": 5000,
+				"discount_percent": 2,
+				"meta_description": "",
+				"meta_title": ""
+			},
+			{
+				"id": 2,
+				"name": "Test Auto Subcategory",
+				"discount_value": 1000,
+				"discount_percent": 10,
+				"meta_description": "",
+				"meta_title": ""
+			},
+			{
+				"id": 3,
+				"name": "Auto Subcategory",
+				"discount_value": 1000,
+				"discount_percent": 10,
+				"meta_description": "",
+				"meta_title": ""
+			}
+		]
+	},
+	"category2": {
+		"id": "9d90de5d-25fe-49e5-9ae9-d40e144f90ba",
+		"createdAt": "2024-07-17T13:45:55.835Z",
+		"updatedAt": "2024-11-25T15:12:50.118Z",
+		"name": "Flammables",
+		"code": "FLM",
+		"description": "Flammables category",
+		"categoryId": null,
+		"imageUrl": "https://vend-erp-dev.s3.amazonaws.com/public/8b7f4d04-ca3d-470c-a01f-a0e3b52f0c9b-electronics.png",
+		"isVatable": "No",
+		"status": "active",
+		"subCategories": [
+			{
+				"id": 1,
+				"name": "PMS Subcategory",
+				"discount_value": 5000,
+				"discount_percent": 2,
+				"meta_description": "",
+				"meta_title": ""
+			},
+			{
+				"id": 1,
+				"name": "AGO Subcategory",
+				"discount_value": 1000,
+				"discount_percent": 10,
+				"meta_description": "",
+				"meta_title": ""
+			}
+		]
+	},
+	"companyCategory": {
+		"id": "029faa30-f31e-4abd-9231-0b0aaa4d32ce",
+		"name": "Test Automation",
+		"status": "active",
+		"type": "External",
+		"creditTenure": 30,
+		"readonly": false,
+		"createdBy": "Itunu Adekile",
+		"createdAt": "2024-07-04T13:31:37.161Z",
+		"updatedAt": "2024-11-28T11:00:55.663Z"
+	},
+	"companyCategory2": {
+		"id": "029faa30-f31e-4abd-9231-0b0aaa4d32ce",
+		"name": "Automation Category",
+		"status": "active",
+		"type": "Internal",
+		"creditTenure": 15,
+		"readonly": false,
+		"createdBy": "Itunu Adekile",
+		"createdAt": "2024-07-04T13:31:37.161Z",
+		"updatedAt": "2024-11-28T11:00:55.663Z"
+	},
+	"buisnessVertical": {
+		"id": "5e870b30-dfe7-4f05-a5aa-8a8f9dfc83b6",
+		"name": "Automation Vertical",
+		"description": "Test automation vertical",
+		"status": true,
+		"autoAssign": "No",
+		"businesses": [
+			{
+				"id": "d2a89e20-0951-46a8-b9ba-2c94cbe8a4ff",
+				"verticalId": "5e870b30-dfe7-4f05-a5aa-8a8f9dfc83b6",
+				"businessId": "4697dc7f-bb7f-49fb-b594-4eee02bf4bb2",
+				"createdAt": "2024-07-29T08:42:02.317Z"
+			}
+		]
+	},
+	"buisnessVertical2": {
+		"id": "5e870b30-dfe7-4f05-a5aa-8a8f9dfc83b6",
+		"name": "QA Automation Vertical",
+		"description": "QA automation vertical",
+		"status": true,
+		"autoAssign": "Yes"
+	},
+	"failedDeliveryReason": {
+		"name": "Automated failed delivery",
+		"type": "rescheduled_delivery"
+	}
+}

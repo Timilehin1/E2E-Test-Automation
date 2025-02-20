@@ -1,0 +1,14 @@
+{
+	"superAdmin": {
+		"emailOrPhoneNumber": "timilehin.oyeniran+32@vendease.com",
+		"password": "P@ssword01"
+	},
+	"adminUser": {
+		"emailOrPhoneNumber": "johnson.oketa+1@vendease.com",
+		"password": "P@ssword1"
+	},
+	"prodUser": {
+		"emailOrPhoneNumber": "timilehin.oyeniran@vendease.com",
+		"password": "P@55word!"
+	}
+}

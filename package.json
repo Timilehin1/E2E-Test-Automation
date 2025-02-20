@@ -1,0 +1,35 @@
+{
+	"name": "guiautomation",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "cypress run",
+		"open:staging": "cypress open --config baseUrl=https://admin-portal-staging.vendease.com/ --env environment=staging,api_base_url=https://admin-service-staging.vendease.com/v1",
+		"open:prod": "cypress open --config baseUrl=https://admin-portal.vendease.com/ --env environment=prod,api_base_url=https://admin-service.vendease.com/v1",
+		"open:dev": "cypress open --config baseUrl=https://admin-portal-dev.vendease.com/ --env environment=dev,api_base_url=https://admin-service-dev.vendease.com/v1",
+		"test:staging": "cypress run --config baseUrl=https://admin-portal-staging.vendease.com/ --env environment=staging,api_base_url=https://admin-service-staging.vendease.com/v1",
+		"test:prod": "cypress run --config baseUrl=https://admin-portal.vendease.com/ --env environment=prod,api_base_url=https://admin-service.vendease.com/v1",
+		"test:dev": "cypress run --config baseUrl=https://admin-portal-dev.vendease.com/ --env environment=dev,api_base_url=https://admin-service-dev.vendease.com/v1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Vendease/guiAutomation.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Vendease/guiAutomation/issues"
+	},
+	"homepage": "https://github.com/Vendease/guiAutomation#readme",
+	"devDependencies": {
+		"cypress": "^13.16.0",
+		"cypress-downloadfile": "^1.2.4",
+		"prettier": "^3.3.3"
+	},
+	"dependencies": {
+		"cypress-file-upload": "^5.0.8",
+		"mailslurp-client": "^15.20.2"
+	}
+}

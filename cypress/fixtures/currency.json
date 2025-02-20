@@ -1,0 +1,17 @@
+{
+	"usa": {
+		"name": "Dollars",
+		"code": "USD",
+		"symbol": "$"
+	},
+	"nigeria": {
+		"name": "Naira",
+		"code": "NGN",
+		"symbol": "₦"
+	},
+	"uk": {
+		"name": "Pounds",
+		"code": "GBP",
+		"symbol": "£"
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"business1": {
+		"fullName": "Automation User",
+		"email": "testautomation2024@yopmail.com",
+		"linkedEmails": ["timilehin.oyeniran@vendease.com"],
+		"phoneNumber": "08060228391",
+		"businessName": "Test Automation Comp",
+		"password": "P@ssword01",
+		"businessTypeId": "b63026f3-fe9c-4ce0-acd0-518414bb0d43",
+		"businessType": "Horeca",
+		"creditTenure": 20,
+		"metadata": {
+			"procurement": {},
+			"core": {
+				"tenantUserType": "business"
+			}
+		}
+	}
+}

@@ -1,0 +1,89 @@
+{
+	"stagingAdmin": {
+		"email": "nenyeadmin@yopmail.com",
+		"password": "password"
+	},
+	"supplier": {
+		"email": "nenyesupplier@yopmail.com",
+		"password": "password"
+	},
+	"businessUser": {
+		"email": "ogechi@yopmail.com",
+		"password": "password123"
+	},
+	"invalidEmail": {
+		"email": "neye@yopmail.com",
+		"password": "password"
+	},
+	"invalidPassword": {
+		"email": "nenyeadmin@yopmail.com",
+		"password": "password123"
+	},
+	"prodAdmin": {
+		"email": "timilehin.oyeniran@vendease.com",
+		"password": "timilehinvendease"
+	},
+	"businessCustomer": {
+		"id": "8c3826ac-3083-4bc4-ae3e-ee65a736a349",
+		"name": "Bistrofy478",
+		"code": "BI242907",
+		"email": "testautomation355@yopmail.com",
+		"phoneNumber": null,
+		"logoUrl": "",
+		"enabled": true,
+		"isGenius": false,
+		"tenantUserType": "business",
+		"payLaterRestriction": true,
+		"tradingName": null,
+		"tinNumber": null,
+		"status": "ACTIVE",
+		"createdBy": "Timilehin Jones"
+	},
+
+	"testAutomationUser": {
+		"id": "213e4b83-151e-4126-ac8a-e86f4408de8b",
+		"name": "Test Automation Comp",
+		"code": "TE566602",
+		"email": "testautomation2024@yopmail.com",
+		"phoneNumber": null,
+		"logoUrl": "",
+		"enabled": true,
+		"isGenius": false,
+		"tenantUserType": "business",
+		"payLaterRestriction": true,
+		"tradingName": null,
+		"tinNumber": null,
+		"status": "ACTIVE",
+		"isBlacklisted": false,
+		"businessWebsiteUrl": null,
+		"linkedEmails": ["testautomation2024@yopmail.com"],
+		"createdBy": "Automation User",
+		"createdById": "dc34e19b-2f33-41c4-85d0-0dc16aef3ef8",
+		"updatedById": "7f7be21e-f25d-43c8-a2c3-ab3fa307e662",
+		"updatedAt": "2024-11-18T13:45:23.336Z",
+		"createdAt": "2024-11-18T10:09:26.606Z",
+		"businessTypeId": "244b5849-36c0-49b7-bd0f-958e020e1a5e",
+		"businessType": {
+			"id": "244b5849-36c0-49b7-bd0f-958e020e1a5e",
+			"name": "Procurement2",
+			"status": "active",
+			"type": "external",
+			"creditTenure": 40,
+			"readonly": false,
+			"createdBy": "Itunu Adekile",
+			"createdAt": "2024-07-21T20:46:23.642Z",
+			"updatedAt": "2024-07-21T20:46:23.642Z"
+		},
+		"creditTenure": 40,
+		"foundingYear": null,
+		"ownerFullName": null,
+		"ownerDateOfBirth": null,
+		"yearsInOperation": null,
+		"isValidated": false,
+		"validationNumber": null,
+		"streetName": null,
+		"countryId": null,
+		"stateId": null,
+		"cityId": null
+	}
+}
